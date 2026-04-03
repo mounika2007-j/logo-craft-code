@@ -31,11 +31,11 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "LogoForge — AI Logo Generator" },
+      { name: "description", content: "Generate stunning logos with AI and get production-ready code." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "LogoForge — AI Logo Generator" },
+      { property: "og:description", content: "Generate stunning logos with AI and get production-ready code." },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "https://lovable.dev/opengraph-image-p98pqg.png" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -43,6 +43,14 @@ export const Route = createRootRoute({
       { name: "twitter:image", content: "https://lovable.dev/opengraph-image-p98pqg.png" },
     ],
     links: [
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
